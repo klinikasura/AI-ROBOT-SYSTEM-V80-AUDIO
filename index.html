@@ -1,22 +1,3 @@
-<?php
-    session_start();
-    require_once('conf/conf.php');
-    header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); 
-    header("Last-Modified: ".gmdate("D, d M Y H:i:s")." GMT"); 
-    header("Cache-Control: no-store, no-cache, must-revalidate"); 
-    header("Cache-Control: post-check=0, pre-check=0", false);
-    header("Pragma: no-cache"); // HTTP/1.0
-    $action      = isset($_GET['aksi'])?$_GET['aksi']:NULL;
-    if($action=="Keluar"){
-        session_start();
-        $_SESSION["ses_admin_login"]=null;
-        unset($_SESSION["ses_admin_login"]); 
-        session_destroy();
-        exit(header("http://10.10.20.253/dashboard/"));
-    }
-
-?>
-
 <script type='text/javascript' >
 history.pushState(null, null,"#" );window.addEventListener("popstate" ,function(event)
 {
@@ -64,29 +45,13 @@ window.onunload=function(){null};
   <meta name="description" content="" />
   <meta name="author" content="" />
 
- <title>Aplikasi RS. Asura</title>
+ <title>AI ROBOT SYSTEM V80 AUDIO</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
-<link href="robotv80.jpeg" rel="icon" type="image/png" />
+<link href="ROBOT-VERSI-80.gif" rel="icon" type="image/gif" />
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-
-
-
-
-
-
-   <link rel="stylesheet" href="http://10.10.20.253/dashboard/APPS-ROBOT/assets/css/vendor.css">
-    <link rel="stylesheet" href="http://10.10.20.253/dashboard/APPS-ROBOT/assets/css/style.css">
-    <link rel="stylesheet" href="http://10.10.20.253/dashboard/APPS-ROBOT/assets/css/responsive.css">
-
-
-
-
-
-
 
 
 
@@ -100,10 +65,6 @@ window.onunload=function(){null};
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
-
-<audio autoplay>
-    <source src="http://10.10.20.253/dashboard/AUDIO/HAI-GITHUB.mp3" type="audio/mpeg">
-    </audio>
 
 
 <p>
@@ -135,7 +96,7 @@ window.onunload=function(){null};
           </a>
 <p>
 PLAY MUSIK ENJOY<div id="idc76392de3842e" a='{"t":"s","v":"1.2","lang":"id","locs":[],"ssot":"c","sics":"ds","cbkg":"#FFFFFF","cfnt":"#000000","etp":"bool","slis":"45"}'><a href="https://cuacalab.id/widget/">Weather Widget for Website</a> by cuacalab.id</div><script async src="https://static1.cuacalab.id/widgetjs/?id=idc76392de3842e"></script>
- <iframe src="https://u.pcloud.link/publink/show?code=kZXKdR5ZUT0z5MOpJO8rxr7ETRaugJEKbLuy"  width="100%" height="400px" ></iframe>
+ <iframe src="https://u.pcloud.link/publink/show?code=kZXKdR5ZUT0z5MOpJO8rxr7ETRaugJEKbLuy"  width="100%" height="800px" ></iframe>
 
 
   <section class="">
@@ -149,17 +110,7 @@ PLAY MUSIK ENJOY<div id="idc76392de3842e" a='{"t":"s","v":"1.2","lang":"id","loc
           <div class="detail-box">
            
            
-      <p>
-            <div>
-              <a href="http://10.10.20.253/dashboard/APPS-ROBOT/GITHUB/LOGIN-V80/" class="btn btn-green ba-add-balance-btn">
-               MASUK APLIKASI
-              </a>
-            </div>
- <div>
-              <a href="https://mega.nz/file/apkzmCiQ#qYJTRCuL2WTIMFAJlS_PLt_hI7cTqtvOEOLg1mxv2rM" class="btn btn-green ba-add-balance-btn">
-               Aplikasi MP3 Musik FREE
-              </a>
-            </div>
+     
           </div>
         </div>
       </div>
